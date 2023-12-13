@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamie Redington - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #2f7292;
+            color: #fff;
+            font-size: 1.5em;
+            padding: 0.5em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        img {
+            border-radius: 50%;
+            max-width: 30%;
+            height: auto;
+            margin-bottom: 1em;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        p a {
+            text-decoration: underline;
+            color: #333;
+            padding: 0;
+            border: none;
+            display: inline;
+        }
+
+        a {
+            display: inline-block;
+            margin: 0.5em;
+            padding: 0.5em 0.5em;
+            text-decoration: none;
+            color: #333;
+            background-color: #fff;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #2f7292;
+            color: #fff;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://media.licdn.com/dms/image/C4E03AQHmd7k5fOYhDA/profile-displayphoto-shrink_800_800/0/1574205792233?e=1707955200&v=beta&t=FwS-itN5sLSzOW5lcLrb-om4tvwDTUYLsGpwodNVkOM" alt="Jamie Redington">
+        <h1>Jamie Redington</h1>
+        <p></p> <!-- job title -->
+    </header>
+
+    <section>
+        <p>Hi there! Welcome. A little bit about me...</p>
+        <p>I'm an aerospace and ocean engineer and recently spent time on Wall Street as a proprietary trader. Now, my focus is on entrepreneurship and actively seeking like-minded individuals to collaborate with on innovative ventures. I am driven by a relentless curiosity and thrive on exploring new and untested ideas with the potential to reshape the world around us. If you share a vision for innovation, exploration, and impactful entrepreneurship, let's connect!</p>
+        <p></p>
+        <p>Feel free to get in touch with me through any of my socials below or you could click <a href=mailto:jgredington@gmail.com>here</a> to send me an email</p>
+
+        <div>
+            <!-- social media accounts -->
+            <a href="https://www.linkedin.com/in/james-redington/" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/JamesGRedington" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/jamie.red/" target="_blank">Instagram</a>
+<!--            <a href="https://medium.com/@jgredington" target="_blank">Medium</a>--> <!-- not publishing anything yet there -->
+            <a href="https://www.goodreads.com/user/show/166798780-jamie-redington" target="_blank">Goodreads</a>
+            <a href="https://github.com/JamieRed123" target="_blank">Github</a>
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Jamie Redington - <span id="currentYear"></span></p>
+    </footer>
+    <script>
+        document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>

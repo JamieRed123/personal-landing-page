@@ -1,2 +1,2 @@
 # jredington.com
-My Personal Linktree
+My Personal Linktree currently registered at jamieredington.com

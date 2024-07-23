@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamie Redington</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #2f7292;
+            color: #fff;
+            font-size: 1.5em;
+            padding: 0.5em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        img {
+            border-radius: 30%;
+            max-width: 10em;
+            height: auto;
+            margin-top: 1em;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        p a {
+            text-decoration: underline;
+            color: #333;
+            padding: 0;
+            border: none;
+            display: inline;
+        }
+
+        a {
+            display: inline-block;
+            margin: 0.5em;
+            padding: 0.5em 0.5em;
+            text-decoration: none;
+            color: #fff;
+            background-color: #2f7292;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #2f7292;
+            color: #fff;
+            padding: 0.5em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Jamie's Events</h1>
+</header>
+
+<section>
+    <p>From time to time I help to host events for founders and entrepreneurs in NYC. These are through Rocket Mixer
+        which hosts pitch events for seed stage startups and FounderSquare, a community of largely pre-seed founders
+        learning together united in the founder journey. I'd love to see you at one of our upcoming events!</p>
+    <p>The best way to learn about future events is to sign up for the Rocket Mixer newsletter and join the FounderSquare Slack chat using the links below:</p>
+    <div>
+        <!-- links to RocketMixer and FounderSquare websites -->
+        <a href="https://www.rocketmixer.club/" target="_blank">Rocket Mixer</a>
+        <a href="https://foundersquare.nyc/" target="_blank">FounderSquare</a>
+    </div>
+    <p>&nbsp</p>
+    <p>Or if you'd like to join me at my next event, sign up with the Luma invite below</p>
+    <iframe
+            src="https://lu.ma/embed/event/evt-GKtvuU51GoWhUAm/simple"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: 1px solid #bfcbda88; border-radius: 4px;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+    ></iframe>
+
+</section>
+
+<footer>
+    <p>&copy; <span id="currentYear"></span> Jamie Redington</p>
+</footer>
+<script>
+        document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+
+</script>
+</body>
+</html>
